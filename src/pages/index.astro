@@ -1,0 +1,30 @@
+---
+import FirstComponent from "../components/FirstComponent.astro";
+import Invisible from "../components/Invisible.astro";
+import SecondComponent from "../components/SecondComponent.astro";
+import ThirdComponent from "../components/ThirdComponent.astro";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+		<script src="../scripts/main.js"></script>
+	</head>
+	<body> 
+		<FirstComponent />
+		<Invisible />
+		<SecondComponent />
+		<ThirdComponent />
+	</body>
+</html>
+
+<style>
+	body {
+		overflow-x: clip;
+		margin: 0;
+	}
+</style>

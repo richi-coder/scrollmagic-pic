@@ -1,0 +1,17 @@
+{
+  "name": "scroll-magic-practice",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.1.5",
+    "scrollmagic": "^2.0.8",
+    "scrollmagic-plugins": "^1.0.8"
+  }
+}
